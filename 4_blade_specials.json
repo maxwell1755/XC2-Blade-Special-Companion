@@ -1,0 +1,1263 @@
+{
+   "Pyra": [
+      {
+         "ID": 3,
+         "Name": "Burning Sword",
+         "Caption": "Cleave the enemy with a giant sword of flame that detonates on impact.",
+         "WpnType": "Aegis Sword",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 11,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 1150,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Mythra": [
+      {
+         "ID": 4,
+         "Name": "Sacred Arrow",
+         "Caption": "Rain down arrows of light from above to tear the enemy apart.",
+         "WpnType": "Aegis Sword",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "CircleBullet",
+         "Hits": 7,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 1400,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Nia": [
+      {
+         "ID": 6,
+         "Name": "Divine Sword",
+         "Caption": "Invert the power of regeneration to erode the enemy from within.",
+         "WpnType": "Catalyst Scimitar",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 1150,
+         "Enhance": "When landing a hit, restores 50% of damage dealt to the whole party."
+      }
+   ],
+   "Dromarch": [
+      {
+         "ID": 7,
+         "Name": "Dark Maelstrom",
+         "Caption": "Follow up Wild Roar with an overwhelming assault.",
+         "WpnType": "Twin Rings",
+         "CmnBlType": "",
+         "BuddyDr": 2,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 1100,
+         "Enhance": "Spawns a small HP Potion on hit, with a 100% chance to spawn 2."
+      },
+      {
+         "ID": 8,
+         "Name": "Dark Maelstrom",
+         "Caption": "Follow up Wild Roar with an overwhelming assault.",
+         "WpnType": "Twin Rings",
+         "CmnBlType": "",
+         "BuddyDr": 1,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 1100,
+         "Enhance": "Spawns a small HP Potion on hit, with a 100% chance to spawn 2."
+      }
+   ],
+   "Poppi α": [
+      {
+         "ID": 9,
+         "Name": "Jet Biter",
+         "Caption": "Attack with the Big Mecha Biter (once charged).",
+         "WpnType": "Drill Shield",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 1,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": "Increases damage dealt to toppled enemies by 150%."
+      }
+   ],
+   "Poppi QT": [
+      {
+         "ID": 10,
+         "Name": "Quixotic Megaburst",
+         "Caption": "Fire off numerous destructive missiles (once charged).",
+         "WpnType": "Mech Arms",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 550,
+         "Enhance": "Increases damage dealt to launched enemies by 150%."
+      }
+   ],
+   "Poppi QTπ": [
+      {
+         "ID": 11,
+         "Name": "Quantum Judgment",
+         "Caption": "Dice the enemy and unleash 100% power in mid-air.",
+         "WpnType": "Variable Saber",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 10,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 575,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Brighid": [
+      {
+         "ID": 12,
+         "Name": "Azure III: Soulfire",
+         "Caption": "Engulf the enemy in countless blue flames, reducing them to ashes.",
+         "WpnType": "Whipswords",
+         "CmnBlType": "",
+         "BuddyDr": 6,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 16,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 1000,
+         "Enhance": "Increases damage dealt to enemies targeting user by 100%."
+      },
+      {
+         "ID": 13,
+         "Name": "Azure III: Soulfire",
+         "Caption": "Engulf the enemy in countless blue flames, reducing them to ashes.",
+         "WpnType": "Whipswords",
+         "CmnBlType": "",
+         "BuddyDr": 1,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 16,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 1000,
+         "Enhance": "Increases damage dealt to enemies targeting user by 100%."
+      }
+   ],
+   "Pandoria": [
+      {
+         "ID": 14,
+         "Name": "Sonic Thunderslash",
+         "Caption": "Power up Driver to strike the enemy at ultra high speed.",
+         "WpnType": "Big Bang Edge",
+         "CmnBlType": "",
+         "BuddyDr": 3,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 16,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 1150,
+         "Enhance": "Increases critical damage by 85%."
+      },
+      {
+         "ID": 15,
+         "Name": "Sonic Thunderslash",
+         "Caption": "Power up Driver to strike the enemy at ultra high speed.",
+         "WpnType": "Big Bang Edge",
+         "CmnBlType": "",
+         "BuddyDr": 1,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 16,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 1150,
+         "Enhance": "Increases critical damage by 85%."
+      }
+   ],
+   "Roc": [
+      {
+         "ID": 16,
+         "Name": "Crimson Storm",
+         "Caption": "Roc follows up Driver attack with an assault from the air.",
+         "WpnType": "Dual Scythes",
+         "CmnBlType": "",
+         "BuddyDr": 5,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 2,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 575,
+         "Enhance": "Increases damage dealt to launched enemies by 150%."
+      }
+   ],
+   "Sever": [
+      {
+         "ID": 18,
+         "Name": "Deadly Divide",
+         "Caption": "Slash the enemy with a giant blade of ether.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 1,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 575,
+         "Enhance": ""
+      }
+   ],
+   "Akhos": [
+      {
+         "ID": 21,
+         "Name": "Hellwind of Ruin",
+         "Caption": "Perform a spinning attack in the air, finishing with a bowshot.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 575,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Patroka": [
+      {
+         "ID": 22,
+         "Name": "Illusory Bloom",
+         "Caption": "Transform weapon into scimitar and hack the enemy to pieces.",
+         "WpnType": "Megalance",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 10,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 600,
+         "Enhance": "Increases damage dealt by 150% when HP is 30% or less."
+      }
+   ],
+   "Mikhail": [
+      {
+         "ID": 23,
+         "Name": "Ultimate Crow",
+         "Caption": "Flourish two fans to slice the enemy with an elegant dance.",
+         "WpnType": "Twin Rings",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 10,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 575,
+         "Enhance": ""
+      }
+   ],
+   "Obrona": [
+      {
+         "ID": 24,
+         "Name": "Lacerator",
+         "Caption": "Slash the enemy and emit mystic rays of light from your wings.",
+         "WpnType": "Twin Rings",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 10,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 575,
+         "Enhance": "Increases damage dealt by 150% when HP is 90% or higher."
+      }
+   ],
+   "Perdido": [
+      {
+         "ID": 26,
+         "Name": "Diamond Inferno",
+         "Caption": "Annihilate the enemy with attacks from four different weapons.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 8,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 625,
+         "Enhance": ""
+      }
+   ],
+   "Cressidus": [
+      {
+         "ID": 28,
+         "Name": "Star Crusher",
+         "Caption": "Rush down the enemy and slam them with a leaping body press.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 575,
+         "Enhance": "Increases critical damage by 85%."
+      }
+   ],
+   "Aegaeon": [
+      {
+         "ID": 30,
+         "Name": "Sea God's Tidal Wave",
+         "Caption": "Sharpen senses and unleash a series of fierce strikes.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": "Increases damage dealt to enemies targeting user by 100%."
+      }
+   ],
+   "Godfrey": [
+      {
+         "ID": 31,
+         "Name": "Whiteout",
+         "Caption": "Attack repeatedly and slam your weapon to create a shockwave.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 500,
+         "Enhance": ""
+      }
+   ],
+   "Wulfric": [
+      {
+         "ID": 32,
+         "Name": "Apocalypse",
+         "Caption": "Jab at the enemy repeatedly and fire a laser from the chest.",
+         "WpnType": "Megalance",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 690,
+         "Enhance": "Increases critical damage by 85%."
+      }
+   ],
+   "Perceval": [
+      {
+         "ID": 33,
+         "Name": "Demon Quadrant",
+         "Caption": "Mow down the enemy with 3 strikes, then finish with an almighty slice.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": "Adds 3% chance to incapacitate enemy (fails on bosses and uniques)."
+      }
+   ],
+   "Gorg": [
+      {
+         "ID": 34,
+         "Name": "Rock My World",
+         "Caption": "Use the momentum of a spinning cut to jump and fire a shockwave.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "CircleBullet",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 500,
+         "Enhance": ""
+      }
+   ],
+   "Dagas": [
+      {
+         "ID": 36,
+         "Name": "Blazing Conquest",
+         "Caption": "Slowly build up energy to burn the enemy to a crisp.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 1,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 600,
+         "Enhance": "Increases damage dealt to toppled enemies by 150%."
+      }
+   ],
+   "Boreas": [
+      {
+         "ID": 37,
+         "Name": "Gobble Gobble!",
+         "Caption": "Jump after a spinning attack to fire a hail of bullets.",
+         "WpnType": "Bitball",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 2,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": "When landing a hit, restores 50% of damage dealt to the whole party."
+      }
+   ],
+   "Floren": [
+      {
+         "ID": 38,
+         "Name": "Lethal Lavender",
+         "Caption": "Spin along with the Bitball to send out a shockwave in all directions.",
+         "WpnType": "Bitball",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": "When landing a hit, restores 50% of damage dealt to the whole party."
+      }
+   ],
+   "Kasandra": [
+      {
+         "ID": 39,
+         "Name": "Melancholic Break",
+         "Caption": "Offer prayers to your shield, then release a large number of bandages.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 600,
+         "Enhance": ""
+      }
+   ],
+   "Praxis": [
+      {
+         "ID": 40,
+         "Name": "Torrential Pain",
+         "Caption": "Launch a continuous, hard-to-dodge attack at high speeds.",
+         "WpnType": "Megalance",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 400,
+         "Enhance": "Increases damage dealt from the side by 150%."
+      }
+   ],
+   "Theory": [
+      {
+         "ID": 41,
+         "Name": "Winter's Wake",
+         "Caption": "Hurl out continuous ice strikes to freeze the enemy in their tracks.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 400,
+         "Enhance": "Increases damage dealt to enemies targeting user by 100%."
+      }
+   ],
+   "Perun": [
+      {
+         "ID": 42,
+         "Name": "Snowflake of Judgment",
+         "Caption": "After a series of trifling cuts, unleash a giant pillar of ice.",
+         "WpnType": "Megalance",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 8,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt when an ally is incapacitated by 150%."
+      }
+   ],
+   "Kora": [
+      {
+         "ID": 43,
+         "Name": "Sweet Emotion",
+         "Caption": "Break the enemy's block, then throw a full-strength lightning punch.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 2,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": "Spawns a small HP Potion on hit, with a 100% chance to spawn 2."
+      }
+   ],
+   "Azami": [
+      {
+         "ID": 44,
+         "Name": "Evil Ensemble",
+         "Caption": "Fire bullets continuously at the enemy while dancing in a circle.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 400,
+         "Enhance": "Increases damage dealt by 150% when HP is 30% or less."
+      }
+   ],
+   "Ursula": [
+      {
+         "ID": 45,
+         "Name": "Ursine Phantasm",
+         "Caption": "Attack with an uppercut while Beary rushes the enemy.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 550,
+         "Enhance": "When landing a hit, restores 50% of damage dealt to the whole party."
+      }
+   ],
+   "Newt": [
+      {
+         "ID": 46,
+         "Name": "Going Ballistic",
+         "Caption": "Attack with a series of cuts, then an explosion with ether from the scabbard.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 575,
+         "Enhance": ""
+      }
+   ],
+   "Nim": [
+      {
+         "ID": 47,
+         "Name": "Earth Priestess",
+         "Caption": "After a series of attacks, hit the enemy with a high-powered laser shot.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": ""
+      }
+   ],
+   "Sheba": [
+      {
+         "ID": 48,
+         "Name": "Royal Tea Party",
+         "Caption": "Sheba sits in her bathtub to attack in tandem with her watery lover.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 13,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 690,
+         "Enhance": ""
+      }
+   ],
+   "Vess": [
+      {
+         "ID": 49,
+         "Name": "Divine Plasma",
+         "Caption": "Attack the enemy with a ball of lightning formed by Vess's weapon.",
+         "WpnType": "Bitball",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 1,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 425,
+         "Enhance": "When landing a hit, restores 50% of damage dealt to the whole party."
+      }
+   ],
+   "Adenine": [
+      {
+         "ID": 50,
+         "Name": "Literacy Beatdown",
+         "Caption": "As the enemy recoils from a series of attacks, fire a blast of compressed air.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 550,
+         "Enhance": ""
+      }
+   ],
+   "Electra": [
+      {
+         "ID": 51,
+         "Name": "Electrifying Show",
+         "Caption": "Electra hits her weapon like a drum to trigger a shockwave.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 400,
+         "Enhance": "Increases damage dealt from the front by 100%."
+      }
+   ],
+   "Zenobia": [
+      {
+         "ID": 52,
+         "Name": "Twixt Heaven & Hell",
+         "Caption": "Strike down on the enemy from on high with a powerful weapon.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 8,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 600,
+         "Enhance": "Increases damage dealt to higher-level enemies by 100%."
+      }
+   ],
+   "Finch": [
+      {
+         "ID": 53,
+         "Name": "Perfect Storm",
+         "Caption": "During a spinning attack...slip and let go of the hammer.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 500,
+         "Enhance": ""
+      }
+   ],
+   "KOS-MOS": [
+      {
+         "ID": 54,
+         "Name": "X-Buster",
+         "Caption": "Fire a concentrated laser beam, but only when energy reserves are full.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "Ahead",
+         "Hits": 9,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 719,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Herald Herald": [
+      {
+         "ID": 55,
+         "Name": "Heaven on Earth",
+         "Caption": "Fire a super-strong laser to annihilate the enemy.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 8,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 621,
+         "Enhance": "Increases critical damage by 85%."
+      }
+   ],
+   "Vale": [
+      {
+         "ID": 56,
+         "Name": "Dark Drama",
+         "Caption": "Lose control completely and batter the enemy with the lance.",
+         "WpnType": "Megalance",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 575,
+         "Enhance": "Increases damage dealt by 150% when HP is 30% or less."
+      }
+   ],
+   "Agate": [
+      {
+         "ID": 57,
+         "Name": "Invincible Moldavite",
+         "Caption": "Launch an attack while spinning the weapon around.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 7,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 500,
+         "Enhance": "Increases damage dealt to toppled enemies by 150%."
+      }
+   ],
+   "Dahlia": [
+      {
+         "ID": 58,
+         "Name": "Silver-Snow Glory",
+         "Caption": "Fire icy crystals from the ball as it moves around Dahlia.",
+         "WpnType": "Bitball",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "When landing a hit, restores 50% of damage dealt to the whole party."
+      }
+   ],
+   "Generic": [
+      {
+         "ID": 59,
+         "Name": "Absolute Smash",
+         "Caption": "Take a weapon out of the air and bring it down in a series of attacks.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "Male",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 450,
+         "Enhance": ""
+      },
+      {
+         "ID": 60,
+         "Name": "Immortal Spike",
+         "Caption": "Jab the lance outwards in a series of stabbing attacks.",
+         "WpnType": "Megalance",
+         "CmnBlType": "Male",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 495,
+         "Enhance": "Increases damage dealt from the side by 120%."
+      },
+      {
+         "ID": 61,
+         "Name": "Wisdom Strike",
+         "Caption": "Fire the cannon blindly straight down at the ground.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "Male",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt to launched enemies by 120%."
+      },
+      {
+         "ID": 62,
+         "Name": "Irresistible Rush",
+         "Caption": "Follow up a shield attack with a rush attack with the hammer.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "Male",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt to toppled enemies by 120%."
+      },
+      {
+         "ID": 63,
+         "Name": "Superior Strike",
+         "Caption": "Strike out with the scabbard, then perform a series of cutting attacks.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "Male",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 495,
+         "Enhance": "Increases damage dealt to enemies targeting user by 80%."
+      },
+      {
+         "ID": 64,
+         "Name": "Chaos Slam",
+         "Caption": "Pummel the enemy with super-fast Bitball attacks.",
+         "WpnType": "Bitball",
+         "CmnBlType": "Male",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "When landing a hit, restores 40% of damage dealt to the whole party."
+      },
+      {
+         "ID": 65,
+         "Name": "Heracles Break",
+         "Caption": "Rush in at high speed with a combination of kicks and punches.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "Male",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 7,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "Spawns a small HP Potion on hit, with a 100% chance to spawn 2."
+      },
+      {
+         "ID": 66,
+         "Name": "Megaton Charge",
+         "Caption": "Tackle the enemy to throw them off guard, then perform a spinning cut.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "Brute",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 495,
+         "Enhance": ""
+      },
+      {
+         "ID": 67,
+         "Name": "Colossal Sting",
+         "Caption": "Extend the weapon as far as it will go to stab upwards.",
+         "WpnType": "Megalance",
+         "CmnBlType": "Brute",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 2,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt from the side by 120%."
+      },
+      {
+         "ID": 68,
+         "Name": "Radical Bullet",
+         "Caption": "Fire continuous blasts with a high-powered cannon.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "Brute",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt to launched enemies by 120%."
+      },
+      {
+         "ID": 69,
+         "Name": "Riot Hammer",
+         "Caption": "After a spinning attack, strike the ground with full strength.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "Brute",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 495,
+         "Enhance": "Increases damage dealt to toppled enemies by 120%."
+      },
+      {
+         "ID": 70,
+         "Name": "Overcharger",
+         "Caption": "Make a cut with the sword, then strike with the scabbard.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "Brute",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 2,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt to enemies targeting user by 80%."
+      },
+      {
+         "ID": 71,
+         "Name": "Colossal Strike",
+         "Caption": "Wield the ball with the right arm to land a hit, then throw it at the enemy.",
+         "WpnType": "Bitball",
+         "CmnBlType": "Brute",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "When landing a hit, restores 40% of damage dealt to the whole party."
+      },
+      {
+         "ID": 72,
+         "Name": "Incredible Beat",
+         "Caption": "Attack with a series of hooks, then a powerful uppercut.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "Brute",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 495,
+         "Enhance": "Spawns a small HP Potion on hit, with a 100% chance to spawn 2."
+      },
+      {
+         "ID": 73,
+         "Name": "Excess Axe",
+         "Caption": "Go from a dashing, spinning attack into a jumping, descending attack.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "Female",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 450,
+         "Enhance": ""
+      },
+      {
+         "ID": 74,
+         "Name": "Imperial Lance",
+         "Caption": "Spin the lance over the head to create a flurry of stabbing attacks.",
+         "WpnType": "Megalance",
+         "CmnBlType": "Female",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt from the side by 120%."
+      },
+      {
+         "ID": 75,
+         "Name": "Dragoon Shot",
+         "Caption": "Jump back and fire an ether bullet.",
+         "WpnType": "Ether Cannon",
+         "CmnBlType": "Female",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 495,
+         "Enhance": "Increases damage dealt to launched enemies by 120%."
+      },
+      {
+         "ID": 76,
+         "Name": "Victor Swing",
+         "Caption": "Bash the enemy with the shield, then hit them with the hammer.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "Female",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 3,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt to toppled enemies by 120%."
+      },
+      {
+         "ID": 77,
+         "Name": "Triumphant Front",
+         "Caption": "Draw and attack, then follow on with the scabbard, draw and slash again.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "Female",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "Increases damage dealt to enemies targeting user by 80%."
+      },
+      {
+         "ID": 78,
+         "Name": "Asteroid Throw",
+         "Caption": "Perform multiple attacks throwing a Bitball designed for maximum damage.",
+         "WpnType": "Bitball",
+         "CmnBlType": "Female",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 495,
+         "Enhance": "When landing a hit, restores 40% of damage dealt to the whole party."
+      },
+      {
+         "ID": 79,
+         "Name": "Amazing Rush",
+         "Caption": "Rush in at high speed with a combination of kicks and punches.",
+         "WpnType": "Knuckle Claws",
+         "CmnBlType": "Female",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 8,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "Spawns a small HP Potion on hit, with a 100% chance to spawn 2."
+      },
+      {
+         "ID": 80,
+         "Name": "Savage Chakram",
+         "Caption": "Charge with a ring in your mouth.",
+         "WpnType": "Twin Rings",
+         "CmnBlType": "Animal",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 4,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 450,
+         "Enhance": "Spawns a small HP Potion on hit, with a 100% chance to spawn 2."
+      }
+   ],
+   "T-elos": [
+      {
+         "ID": 118,
+         "Name": "U-TENERITAS",
+         "Caption": "Detonate a high-energy explosive that damages all enemies in the vicinity.",
+         "WpnType": "Greataxe",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "Ahead",
+         "Hits": 2,
+         "Knockback": false,
+         "Blowdown": false,
+         "DmgMgn": 719,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Poppibuster": [
+      {
+         "ID": 119,
+         "Name": "Buster Impact",
+         "Caption": "Initiate Poppibuster self-destruct mode.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "CircleBullet",
+         "Hits": 9,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 975,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Shulk": [
+      {
+         "ID": 120,
+         "Name": "Monado Unbound",
+         "Caption": "Unleash the true power of the Monado in a series of strikes.",
+         "WpnType": "Shield Hammer",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 5,
+         "Knockback": false,
+         "Blowdown": true,
+         "DmgMgn": 900,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Fiora": [
+      {
+         "ID": 121,
+         "Name": "Butterfly Step",
+         "Caption": "Overwhelm the enemy with a flurry of high-speed blows.",
+         "WpnType": "Twin Rings",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 6,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 825,
+         "Enhance": "When landing a hit, restores 50% of damage dealt to the whole party."
+      }
+   ],
+   "Corvin": [
+      {
+         "ID": 122,
+         "Name": "Evello Mortem Tyrannis",
+         "Caption": "Let loose with a series of slashes, followed with a strike from mid-air.",
+         "WpnType": "Chroma Katana",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Physical",
+         "RangeType": "OneTarget",
+         "Hits": 13,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 1250,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ],
+   "Crossette": [
+      {
+         "ID": 123,
+         "Name": "Go! Miracle Star!",
+         "Caption": "Barrage the enemy with a series of ether explosions sent forward.",
+         "WpnType": "Bitball",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "Ahead",
+         "Hits": 6,
+         "Knockback": true,
+         "Blowdown": true,
+         "DmgMgn": 805,
+         "Enhance": "Increases critical damage by 85%."
+      }
+   ],
+   "Elma": [
+      {
+         "ID": 134,
+         "Name": "Full Metal Jaguar",
+         "Caption": "Lead with a burst of gunfire, then jump in the air and slam your swords down.",
+         "WpnType": "Twin Rings",
+         "CmnBlType": "",
+         "BuddyDr": 0,
+         "ArtsType": "Ether",
+         "RangeType": "OneTarget",
+         "Hits": 11,
+         "Knockback": true,
+         "Blowdown": false,
+         "DmgMgn": 1013,
+         "Enhance": "Adds a 100% chance of dealing a guard-annulling attack."
+      }
+   ]
+}
