@@ -15,49 +15,90 @@
     font-family: 'Skip Standard M', sans-serif;
   }
   
-  h1 {
+h1 {
     font-size: 2em;
     margin-bottom: 20px;
-  }
-  
-  /* Container for blade boxes */
-  #blade-container {
+    text-align: center;
+}
+
+  /* Navigation bar */
+.top-nav {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
     justify-content: center;
+    gap: 30px;
+    background-color: #111;
+    padding: 16px 0;
+    border-bottom: 1px solid #444;
+    font-family: 'Skip Standard M', sans-serif;
   }
   
-  /* Blade info box styling */
-  .blade-box {
-    background: linear-gradient(to bottom right, #222, #111);
-    border: 1px solid #444;
-    border-radius: 12px;
-    padding: 16px;
-    width: 320px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  .nav-item {
+    color: #79c1ff;
+    cursor: pointer;
+    font-size: 1.1em;
+    position: relative;
+    padding: 4px 8px;
   }
   
-  /* For each special tier */
-  .special-tier {
-    display: flex;
-    align-items: center;
-    background-color: #061c3d;
-    padding: 10px;
-    margin: 10px 0;
-    border-left: 4px solid #79c1ff;
-    border-radius: 8px;
+  .nav-item:hover {
+    color: #ffffff;
   }
   
-  .special-tier img {
-    width: 32px;
-    height: 32px;
-    margin-right: 10px;
+  .nav-item.active::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #79c1ff;
+    border-radius: 2px;
   }
   
-  .special-text {
-    font-style: italic;
-    color: #cce8ff;
-    font-size: 0.95em;
-  }
+  
+  #party-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.driver-column {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.driver-slot {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.blade-slot-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blade-slot {
+  width: 50px;
+  height: 50px;
+  background-color: #222;
+  border: 1px dashed #666;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  cursor: pointer;
+}
+
   
